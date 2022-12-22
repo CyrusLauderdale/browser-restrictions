@@ -1,8 +1,8 @@
 {
     "manifest_version":3,
     "name":"GoGuardian",
-    "description":"GoGuardian chrome extension",
-    "version":"2",
+    "description":"GoGuardian",
+    "version":"3",
     "permissions":["storage","tabs"],
     "icons": {
         "16": "icon16.png",
@@ -10,9 +10,8 @@
         "128": "icon128.png"
     },
     "content_scripts": [{
-        "matches": ["https://*.youtube.com/*"],
+        "matches": ["https://*.youtube.com/*","https://*.twitter.com/*",  "https://*.facebook.com/*", "https://*.whatsapp.com/*", "https://*.instagram.com/*", "https://*.wechat.com/*", "https://*.tiktok.com/*"],
         "js": ["main.js"]
-        
     }]
 
 }
