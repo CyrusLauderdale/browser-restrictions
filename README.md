@@ -1,1 +1,1 @@
-I made this in roughly 10 minutes as a fix to an annoying student I was working with refusing to get off youtube.
+A simple extensions to allow the removal of anyone in a workplace or school environment from being off task.
